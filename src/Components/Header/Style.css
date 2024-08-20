@@ -1,0 +1,28 @@
+.header {
+    width: 430px;
+    height: 7rem;
+    margin: 0 auto;
+    background-color: #003176!important;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 0rem;
+    margin-inline: auto;
+}
+
+.logo-grendene {
+    width: 40%;
+    height: 70%;
+    display: inline-block;
+}
+
+.icone-lista{
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.header button {
+    width: 5rem;
+}

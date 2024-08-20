@@ -1,0 +1,36 @@
+.menu-lateral {
+    position: absolute;
+    transform: translate(0, -110%);
+    background-color: #003176!important;
+    width: 430px;
+    height: 100VH;
+    /* z-index: 100; */
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+
+.menu-lateral.mostrar{
+    transform: translate(0%, -10%);
+}
+
+.nav-lista {
+    padding-top: 5rem;
+}
+
+.nav-lista li {
+    font-size: larger;
+    font-weight: bold;
+    width: 430px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.aside-logo {
+    margin: 0 auto;
+    width: 80%;
+    align-self: flex-end;
+}

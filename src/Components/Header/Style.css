@@ -5,7 +5,7 @@
     background-color: #003176!important;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-inline: 0rem;
     margin-inline: auto;
@@ -15,14 +15,22 @@
     width: 40%;
     height: 70%;
     display: inline-block;
+    margin-left: 2rem;
 }
 
 .icone-lista{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     cursor: pointer;
     color: #FFF;
     font-weight: bold;
+    z-index: 200;
 }
 
 .header button {
-    width: 5rem;
+    width: 3rem;
+    margin-right: 2.5rem;
 }

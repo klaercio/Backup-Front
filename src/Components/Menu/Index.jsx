@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
 import './Style.css';
-import logo from "../../Assets/Image/grendene-white.png";
+import { IoMdHome } from "react-icons/io";
+import { RiAdminFill } from "react-icons/ri";
+import { VscGraph } from "react-icons/vsc";
 
 const Menu = ({isOpen}) => {
     return <>
         <aside className={`menu-lateral ${isOpen? '': 'mostrar'}`}>
             <nav className="navegacao">
                 <ul className="nav-lista">
-                    <li>Home</li>
-                    <li>DashBoard</li>    
-                    <li>Administrador</li>
+                    <li><IoMdHome/><p>Home</p></li>
+                    <li><VscGraph/><p>Painel</p></li>    
+                    <li><RiAdminFill/><p>Admin</p></li>
                 </ul>
             </nav>
         </aside>
-
     </>
 }
 

@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Index.jsx";
 import Formulario from "../../Components/Formulario/Index.jsx";
 
 const Home = () => {

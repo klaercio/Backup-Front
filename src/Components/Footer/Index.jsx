@@ -3,7 +3,7 @@ import "./Style.css";
 
 const Footer = () =>{
     return <>
-        <footer className="rodape">	&#169; Todos os direitos reservados a Grendene S/A</footer>
+        <footer className="rodape">Copyright &#169; Grendene - 2024</footer>
     </>
 }
 

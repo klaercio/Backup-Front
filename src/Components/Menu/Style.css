@@ -11,10 +11,12 @@
         border-radius: 10px;
         max-height: 0;
         transition: all 1s ease-in-out;
+        visibility: hidden;
     }
     
     .menu-lateral.mostrar{
         max-height: 10.5rem;
+        visibility: visible;
     }
     
     .nav-lista li {
@@ -28,4 +30,8 @@
         gap: 0.3rem;
     }
     
+    .no-link-style {
+        text-decoration: none; /* Remove o sublinhado */
+        color: inherit; /* Herda a cor do texto do elemento pai */
+    }
 }

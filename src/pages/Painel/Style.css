@@ -1,0 +1,47 @@
+.painel {
+    display: flex;
+}
+
+.esquerda {
+    background-color: #003176!important;
+    height: 100vh;
+    width: 10%;
+}
+
+.direita {
+   /*  background-color: blue; */
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.direita-cima {
+  /*   background-color: aquamarine; */
+    width: 100%;
+    height: 50%;
+}
+
+.direita-baixo {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.direita-baixo-esquerda {
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.direita-baixo-direita {
+   /*  background-color: cadetblue; */
+    width: 100%;
+}
+
+
+.grafico {
+    width: 100%;
+    height: 100%;
+}

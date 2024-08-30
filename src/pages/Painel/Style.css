@@ -1,47 +1,48 @@
-.painel {
-    display: flex;
-}
 
-.esquerda {
-    background-color: #003176!important;
+
+.fundo-painel {
+    background-color: #ffffffdd;
     height: 100vh;
-    width: 10%;
 }
 
-.direita {
-   /*  background-color: blue; */
-    height: 100vh;
-    width: 90%;
+.cabecalho-painel {
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    background-color: #003176;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.painel-cima {
+    width: 100%;
+    height: 40%;
+    background-color: black;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.direita-cima {
-  /*   background-color: aquamarine; */
-    width: 100%;
-    height: 50%;
+.painel-cima .card {
+    width: 23%;
+    height: 15rem;
+    background-color: aqua;
 }
 
-.direita-baixo {
-    /* background-color: blueviolet; */
+.painel-baixo {
     width: 100%;
-    height: 50%;
+    height: max-content;
+    background-color: red;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.direita-baixo-esquerda {
-    /* background-color: brown; */
-    width: 100%;
-}
-
-.direita-baixo-direita {
-   /*  background-color: cadetblue; */
-    width: 100%;
-}
-
-
-.grafico {
-    width: 100%;
-    height: 100%;
-}
+ .card-baixo {
+    width: 40%;
+    height: 50%;
+    background-color: green;
+} 
